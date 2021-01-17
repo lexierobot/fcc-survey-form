@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Milonga&display=swap" rel="stylesheet">
+
+    <title>FCC Survey Form</title>
+</head>
+<body>
+
+        <img src="https://wizardrylessons.com/wp-content/uploads/2020/04/Hogwarts_Crest_1.png" id="logo" alt="Hogwarts Crest" width="200px">
+
+        <h1 id="title">Hogwarts School of Witchcraft and Wizardry <br>End of Year Student Survey</h1>
+
+        <p id="description"><em>Thank you for taking the time to help us improve our school!</em></p>
+
+        <form action="" id="survey-form">
+            <!-- Name -->
+            <label for="name" id="name-label">Student Name:</label><br>
+            <input type="text" id="name" placeholder="Hermione Granger" required><br>
+
+            <!-- Email -->
+            <label for="email" id="email-label">Owl Mail:</label><br>
+            <input type="email" id="email" placeholder="student@owlmail.com" required><br>
+            
+            <!-- Class Number -->
+            <label for="number" id="number-label">Class Year:</label><br>
+            <input type="number" id="number" min="1" max="7" placeholder="1-7"><br>
+
+            <!-- Select Hogwarts House -->
+            <label for="house">Choose your House:</label>
+            <select name="house" id="dropdown">
+                <option value="gryffindor">Gryffindor</option>
+                <option value="hufflepuff">Hufflepuff</option>
+                <option value="ravenclaw">Ravenclaw</option>
+                <option value="slytherin">Slytherin</option>
+            </select>
+            <br>
+
+            <!-- Radio: Will you return next year? -->
+            <label for="nextyear">Will you be returning to school next year?</label><br>
+            <input type="radio" id="radio" name="nextyear" value="yes">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="radio" name="nextyear" value="no">
+            <label for="no">No</label><br>
+            <input type="radio" id="radio" name="nextyear" value="if voldemort doesn't return">
+            <label for="voldemort">If Voldemort doesn't return</label><br>
+
+            <!-- Select your favorite courses -->
+            <label for="course">Which of your Courses did you most enjoy? You may choose more than one.</label><br>
+            <input type="checkbox" id="Defense Against the Dark Arts" value="course">
+            <label for="Defense Against the Dark Arts">Defense Against the Dark Arts</label><br>
+            <input type="checkbox" id="Potions" value="potions">
+            <label for="Potions">Potions</label><br>
+            <input type="checkbox" id="Transfiguration" value="transfiguration">
+            <label for="Transfiguration">Transfiguration</label><br>
+            <input type="checkbox" id="History of Magic" value="history of magic">
+            <label for="History of Magic">History of Magic</label><br>
+            <input type="checkbox" id="Herbology" value="herbology">
+            <label for="Herbology">Herbology</label><br>
+            <input type="checkbox" id="Care of Magical Creatures" value="care of magical creatures">
+            <label for="Care of Magical Creatures">Care of Magical Creatures</label><br>
+            <input type="checkbox" id="Arithmancy" value="arithmancy">
+            <label for="Arithmancy">Arithmancy</label><br>
+            <input type="checkbox" id="Divination" value="divination">
+            <label for="Divination">Divination</label><br>
+            <input type="checkbox" id="Muggle Studies" value="muggle studies">
+            <label for="Muggle Studies">Muggle Studies</label><br>
+
+            <!-- Additional Comments Form -->
+            <label for="textarea">Do you have any comments or suggestions? Please note your response will be read by Head Professors, and House Points may be added or deducted accordingly.</label><br>
+            <textarea name="message" id="" cols="30" rows="10"></textarea><br>
+
+            <!-- Submit Form -->
+            <input type="submit" value="Submit" id="submit">
+        </form>
+
+
+    
+</body>
+</html>

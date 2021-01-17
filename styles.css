@@ -1,0 +1,75 @@
+
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    padding: 4em;
+    background: url(https://ncazaleafestival.org/wp-content/uploads/2017/01/background-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    width: 30%;
+    max-width: 200px;
+    height: auto;
+}
+
+#title {
+    font-family: 'Milonga', cursive;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#description {
+    text-align: center;
+    padding: 10px;
+    border-top: 5px solid maroon;
+}
+
+form {
+    background-color: rgb(53, 50, 50);
+    padding: 3em;
+    color: #eee;
+    opacity: .85;
+    border-radius: 2em;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 1;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: .5em;
+    border-radius: 20px;
+}
+
+#number {
+    width: 100px;
+}
+
+#dropdown {
+    padding: .5em;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+#submit {
+    margin-top: 1em;
+    border: none;
+    width: 80px;
+    font-size: 18px;
+}
+
+#submit:hover {
+    background-color: maroon;
+    color:#eee;
+    transition: .7s;
+}
